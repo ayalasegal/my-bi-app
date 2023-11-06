@@ -1,0 +1,55 @@
+
+@import '~primeng/resources/themes/saga-blue/theme.css';
+@import '~primeng/resources/primeng.min.css';
+.p-grid{
+    display: flex;
+border-bottom: #5f7280;
+border-width: 3px;
+}
+.panel{
+    text-align: right!important;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px; /* adjust as needed */
+    padding: 20px; /* adjust as needed */
+}
+.position{
+    margin-left:458px;
+}
+.sub-title {
+    padding-top:19px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #5f7280;
+}
+
+.title {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button {
+    justify-self: end;
+}
+.menu-icon {
+    cursor: pointer;
+  } 
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .close-icon {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  
